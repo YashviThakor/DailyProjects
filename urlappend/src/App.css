@@ -1,0 +1,73 @@
+/* Fullscreen centered layout */
+.container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  min-height: 100vh;
+  background-color: #F4F7FC; /* Light professional background */
+}
+
+/* Search Box */
+.search-box {
+  background: #FFFFFF;
+  padding: 30px;
+  border-radius: 10px;
+  box-shadow: 0px 4px 12px rgba(0, 0, 0, 0.15);
+  text-align: center;
+  width: 380px;
+  font-family: "Arial", sans-serif;
+}
+
+/* Title */
+.search-box h2 {
+  font-size: 1.6rem;
+  color: #222;
+  margin-bottom: 15px;
+  font-weight: 600;
+}
+
+/* Input & Button Wrapper */
+.input-group {
+  display: flex;
+  gap: 10px;
+  margin-top: 15px;
+}
+
+/* Input Field */
+.input-group input {
+  flex: 1;
+  padding: 12px;
+  font-size: 1rem;
+  border: 1px solid #ccc;
+  border-radius: 6px;
+  outline: none;
+  transition: all 0.3s ease-in-out;
+}
+
+.input-group input:focus {
+  border-color: #007BFF;
+  box-shadow: 0 0 5px rgba(0, 123, 255, 0.3);
+}
+
+/* Search Button */
+.input-group button {
+  padding: 12px 18px;
+  font-size: 1rem;
+  background-color: #007BFF;
+  color: white;
+  border: none;
+  border-radius: 6px;
+  cursor: pointer;
+  transition: background 0.3s ease-in-out;
+}
+
+.input-group button:hover {
+  background-color: #0056b3;
+}
+
+/* Instruction Text */
+.search-box p {
+  font-size: 0.9rem;
+  color: #555;
+  margin-top: 12px;
+}
